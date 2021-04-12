@@ -7,3 +7,12 @@ for (let i = 0; i < 16 * 16; i++) {
   div.style.padding = "10%";
   container.appendChild(div);
 }
+
+let f = document.querySelectorAll("div");
+
+for (let i = 1; i < f.length; i++) {
+  f[i].addEventListener("mouseenter", () => {
+    f[i].style.backgroundColor =
+      "#" + Math.floor(Math.random() * 16777215).toString(16);
+  });
+}

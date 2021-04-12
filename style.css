@@ -1,4 +1,29 @@
+#main-title {
+  font-family: Arial, Helvetica;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(180, 164, 164);
+}
+
+button {
+  margin-bottom: 5px;
+  border-radius: 50px;
+  background-color: rgb(180, 164, 164);
+  transition: 0.5s;
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(146, 132, 132);
+  outline: none;
+}
+
 #container {
   display: grid;
   grid-template-columns: repeat(16, auto);
+  margin: auto;
 }

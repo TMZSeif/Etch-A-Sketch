@@ -26,7 +26,7 @@ button.addEventListener("click", () => {
   } while (parseInt(size) > 64 || size === "" || isNaN(size));
 
   for (let i = 1; i < f.length; i++) {
-    f[i].style.backgroundColor = "white";
+    f[i].style.backgroundColor = "rgb(180, 164, 164)";
   }
 
   container.textContent = "";
@@ -54,6 +54,6 @@ let change = document.querySelector("#reset");
 
 change.addEventListener("click", () => {
   for (let i = 1; i < f.length; i++) {
-    f[i].style.backgroundColor = "white";
+    f[i].style.backgroundColor = "rgb(180, 164, 164)";
   }
 });
